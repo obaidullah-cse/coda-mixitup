@@ -25,18 +25,16 @@ body {
   margin-right: 0;
 }
 
-.active-btn {
+.active,.cat-btn:hover{
   background-color: #fff;
-}
-
-.cat-btn:hover {
-  background-color: #fff;
+  transition: 0.5s;
 }
 
 .cat-btn:focus {
   outline: none;
   background-color: #fff;
 }
+
 .row p {
   font-size: 18px;
   padding: 20px 0;
