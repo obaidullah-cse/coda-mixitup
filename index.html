@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="text-uppercase text-center mb-3">our porfolio</h1>
+            <div class="borderdown m-auto"></div>
+            <p class="text-center w-50 mx-auto mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem laudantium dignissimos adipisci ex doloremque non Lorem ipsum dolor sit amet. </p>
+        </div>
+
+
+        <!-- mixitup -->
+        <div class="text-center my-5">
+            <button class="cat-btn active-btn" type="button" data-filter="all">All</button>
+            <button class="cat-btn" type="button" data-filter=".category-a">WEB</button>
+            <button class="cat-btn" type="button" data-filter=".category-b">APPS</button>
+            <button class="cat-btn" type="button" data-filter=".category-c">ICONS</button>
+        </div>
+
+        <div class="mixitup row">
+            <div class="mix category-a col-md-6" data-order="1">
+                <img class="img-fluid" src="img/tab-1.png" alt="">
+                <p class="text-uppercase text-center">ISOMETRIC PERSPECTIVE MOCK-UP</p>
+            </div>
+            <div class="mix category-b col-md-6" data-order="2">
+                <img class="img-fluid" src="img/tab-2.png" alt="">
+                <p class="text-uppercase text-center">TIME ZONE APP UI</p>
+            </div>
+            <div class="mix category-b category-c col-md-6" data-order="3">
+                <img class="img-fluid" src="img/tab-3.png" alt="">
+                <p class="text-uppercase text-center">VIRO MEDIA PLAYERS UI COPY 2</p>
+            </div>
+            <div class="mix category-a category-d col-md-6" data-order="4">
+                <img class="img-fluid" src="img/tab-4.png" alt="">
+                <p class="text-uppercase text-center">BLOG / MAGAZINE FLAT UI KIT <p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
